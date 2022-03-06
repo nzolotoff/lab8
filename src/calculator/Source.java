@@ -9,7 +9,7 @@ public class Source {
 
         while (true) {
             String expression = scan.nextLine();
-            Fractions str = new Fractions(expression);
+            Calculation str = new Calculation(expression);
 
             if (str.check()) {
                 str.calculation();
